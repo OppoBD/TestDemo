@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="dfu_feature_title">升级ROM</string>
+    <string name="dfu_notice_title">升级期间，请将手机靠近手环</string>
+    <string name="dfu_enter_confirmation_dialog_title">是否升级ROM</string>
+    <string name="dfu_enter_confirmation_dialog_exit_message">您是否确定开始升级ROM</string>
+    
+    <string name="dfu_enter_confirmation_ignore_this_version">忽略此版本</string>
+    <string name="dfu_enter_confirmation_yes">升级</string>
+    <string name="dfu_enter_confirmation_no">下次再说</string>
+    
+    <string name="dfu_activity_scanning">正在搜索手环&#8230;</string>
+    <string name="dfu_activity_found">找到手环，正在建立连接&#8230;</string>
+    <string name="dfu_activity_connected">已经建立连接，正在获取手环服务&#8230;</string>
+    <string name="dfu_activity_start_transfer">开始传输数据&#8230;</string>
+    <string name="dfu_activity_transfering">正在传输数据&#8230;</string>
+    <string name="dfu_activity_validating">数据传输完成，正在验证数据&#8230;</string>
+    <string name="dfu_activity_update_success">成功升级,按Back键退出此界面</string>
+    <string name="dfu_activity_update_error">升级失败，请重试</string>
+    
+    <string name="dfu_exit_confirmation_dialog_title">取消升级ROM</string>
+    <string name="dfu_exit_confirmation_dialog_exit_message">您是否确定取消升级ROM</string>
+    <string name="dfu_exit_confirmation_yes">取消</string>
+    <string name="dfu_exit_confirmation_no">继续</string>
+    
+
+</resources>

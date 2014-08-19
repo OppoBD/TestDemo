@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background_index" 
+    >
+    
+        <TextView
+	        android:id="@+id/text_devide_introduce"
+	        android:text="@string/device_introduce"
+	        android:layout_marginTop="20dip"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@drawable/background_corners"
+	        android:gravity="center"
+	        android:layout_width="fill_parent"
+	        android:layout_height="200dip"      
+	        android:textColor="#2B2B2B"
+	        android:textSize="35sp"/>
+        
+                
+ <LinearLayout 
+        android:id="@+id/firstBtnLine"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+         >
+	   
+	    <ImageButton
+	        android:id="@+id/btn_check_network"
+	  		 android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="30dip"
+	        android:layout_marginLeft="50dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@drawable/icon_lookup"
+	        android:text="@string/text_btn_check" />
+	
+
+	    <ImageButton
+	        android:id="@+id/btn_check_router"
+       android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="30dip"
+	        android:layout_marginLeft="40dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@drawable/icon_health" />
+	      
+	        
+	    
+	    <ImageButton
+	        android:id="@+id/btn_check_iermu"
+      		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="30dip"
+	        android:layout_marginLeft="40dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@drawable/icon_checkup" />
+	        
+	    </LinearLayout>
+	    
+  <LinearLayout 
+        android:id="@+id/firstBtnLine"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	        
+	           <TextView
+	        android:id="@+id/text_check_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dip" 
+	        android:layout_marginLeft="50dp"
+	        android:text="@string/text_btn_network" 
+	        android:textColor="#2B2B2B"
+	        android:textSize="15sp"/>
+        
+        <TextView
+	        android:id="@+id/text_check_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dip" 
+	        android:layout_marginLeft="40dp"
+	        android:text="@string/text_btn_router" 
+	        android:textColor="#2B2B2B"
+	        android:textSize="15sp"/>
+        
+                
+        <TextView
+	        android:id="@+id/text_check_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dip" 
+	        android:layout_marginLeft="40dp"
+	        android:text="@string/text_btn_iermu" 
+	        android:textColor="#2B2B2B"
+	        android:textSize="15sp"/>
+	  </LinearLayout>
+	  
+  
+                  
+ <LinearLayout 
+        android:id="@+id/firstBtnLine"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+         >
+	   
+	    <ImageButton
+	        android:id="@+id/btn_check_shouhuan"
+	  		 android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="30dip"
+	        android:layout_marginLeft="50dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@drawable/icon_discovery"
+	        android:text="@string/text_btn_check" />
+	
+
+	    <ImageButton
+	        android:id="@+id/btn_check_book"
+       android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="30dip"
+	        android:layout_marginLeft="40dip"
+	        android:layout_marginRight="10dip"
+	        android:background="@drawable/icon_admin" />
+
+	        
+	    </LinearLayout>
+	    
+  <LinearLayout 
+        android:id="@+id/firstBtnLine"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	        
+	           <TextView
+	        android:id="@+id/text_check_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dip" 
+	        android:layout_marginLeft="50dp"
+	        android:text="@string/text_btn_shouhuan" 
+	        android:textColor="#2B2B2B"
+	        android:textSize="15sp"/>
+        
+        <TextView
+	        android:id="@+id/text_check_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="20dip" 
+	        android:layout_marginLeft="40dp"
+	        android:text="@string/text_btn_book" 
+	        android:textColor="#2B2B2B"
+	        android:textSize="15sp"/>
+
+	  </LinearLayout>
+        
+    
+  
+</LinearLayout>

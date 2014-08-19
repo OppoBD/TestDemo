@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <RelativeLayout
+        android:id="@+id/dfu_title" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/dfu_feature_title_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dfu_feature_title"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#404040"
+            android:textSize="18sp"
+            />
+         <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dfu_notice_title"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#404040"
+            android:textSize="18sp"
+            android:layout_below="@id/dfu_feature_title_id"
+            />
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+		android:layout_gravity="center" >
+    
+      		<TextView
+      		    android:id="@+id/dfu_notice_textview"
+      		    android:layout_width="wrap_content"
+      		    android:layout_height="wrap_content"
+      		    android:layout_centerHorizontal="true"
+      		    android:textSize="18sp" />
+
+      		<ProgressBar
+      		    android:id="@+id/dfu_progressbar"
+      		    style="@android:style/Widget.ProgressBar.Horizontal"
+      		    android:layout_width="match_parent"
+      		    android:layout_height="30dp"
+      		    android:layout_centerHorizontal="true"
+      		    android:layout_marginTop="30dp"
+            	android:layout_marginBottom="20dp"
+            	android:layout_marginLeft="20dp"
+            	android:layout_marginRight="20dp"
+            	android:minHeight="20dp" 
+				android:maxHeight="20dp"
+      		    android:layout_below="@id/dfu_notice_textview"
+      		    android:max="100" />
+      	</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">设备医生</string>
+    <string name="login">登录</string>
+    <string name="text_btn_init">登录百度账号</string>
+    <string name="text_btn_init1">更换百度账号</string>
+    <string name="log_tip">日志：</string>
+    <string name="device_introduce">问题定位+解决方案=设备医生</string>
+    <string name="clear_log">清除信息</string>
+    <string name="text_btn_rich">富媒体消息</string>
+    <string name="text_btn_initAK">无账号绑定</string>
+    <string name="text_btn_upload">上传网络数据</string>
+    <string name="text_btn_check">开始体检</string>
+    <string name="text_btn_network">网络检测</string>
+    <string name="text_btn_router">路由体检</string>
+    <string name="text_btn_iermu">I耳目体检</string>
+    <string name="text_btn_shouhuan">手环体检</string>
+    <string name="text_btn_book">网络优化教程</string>
+    <string name="text_btn_finish">完成</string>
+    <string name="text_btn_viewbook">解决方案</string>
+    <string name="network_avg_speed">平均访问速度</string>
+    <string name="network_result">网络体检报告</string>
+    <string name="network_score">0</string>
+    <string name="text_check_capability"> 加密检测 </string>
+    <string name="text_check_dns"> DNS防劫持检测 </string>
+    <string name="text_check_proxy"> 代理检测 </string>
+    <string name="text_check_connectNetwork"> 外网连通性检测 </string>
+    <string name="text_check_NetworkStability"> 网络稳定性检测 </string>
+    <string name="text_check_WIFI_channel"> WIFI信道质量 </string>
+    <string name="text_check_WIFI_Strength"> WIFI信号强度 </string>
+    
+    <string name="router_cur_speed">当前速度</string>
+    <string name="router_result">路由体检报告</string>
+    <string name="router_score">最终得分***，恭喜你击败了全国80%的用户</string>
+    <string name="text_check_pwd"> 密码复杂度 </string>
+    <string name="text_check_wan"> wan口检查 </string>
+    <string name="text_check_network"> 外网连通性检查 </string>
+    <string name="text_check_diskUsedRate"> 磁盘利用率 </string>
+    <string name="text_check_version"> 固件版本 </string>
+    <string name="text_check_devicenum"> 网速优先级 </string>
+    <string name="text_check_arpAttack"> ARP攻击 </string>
+    
+    <string name="text_check_pass"> 通过 </string>
+    <string name="text_check_fail"> 失败 </string>
+    
+    <string name="book_result">网络优化教程</string>
+    <string name="text_book_res"></string>
+    <string name="text_connect_fail">无法访问外网</string>
+    <string name="text_connect_slow">速度慢、不稳定</string>
+    <string name="text_connect_other">其他问题</string>
+    
+	<string name="shouhuan_result">手环检测报告</string>    
+    <string name="shouhuan_score">最终通过率</string>
+    <string name="text_result_fail">Fail</string>
+    <string name="text_check_connect">蓝牙连接检测</string>
+    <string name="text_check_bind">绑定检测</string>    
+    <string name="text_check_timeset">时间设置检测</string>
+    <string name="text_check_alarmset">闹钟提醒设置检测</string>
+    <string name="text_check_lostset">防丢提醒设置检测</string>
+    <string name="text_check_profileset">个人信息设置检测</string>
+    <string name="text_check_targetset">运动目标设置检测</string>
+    <string name="text_check_phonecoming">来电提醒检测</string>
+    <string name="text_check_phoneanswer">来电接听检测</string>
+    
+    
+    <string name="action_settings">Settings</string>
+    
+    <string name="tester_name">Bluetooth command test</string>
+    <string name="tester_version">SW 1.0.0</string>
+    <string name="test_auto">Auto</string>
+    <string name="test_manual">Manual</string>
+    <string name="test_stress">Stress</string>
+    
+    <string name="label_test_list">Menu</string>
+    
+    <!-- Name of Test case. Sync with TestConfig.TEST_CLASSES -->
+    <string-array name="test_menu">
+        <item>Bluetooth</item>
+        <item>LED</item>
+        <item>Vibrate</item>
+        <item>S/N</item>
+        <item>Rom Version</item>
+        <item>Sensor</item>
+        <item>Charge</item>
+        <item>Write Flag</item>
+        <item>Traceability</item>
+        <item>Mormancy</item>
+        <item>OTA</item>
+        <item>RSSI</item>
+        <item>Button</item>        
+        <item>Bind</item>
+        <item>Time</item>
+        <item>UserProfile</item>
+        <item>AlarmSet</item>
+        <item>Lost</item>
+        <item>StillAlarm</item>        
+        <item>LeftOrRightHand</item>
+        <item>PhoneComming</item>
+        <item>PhoneAnswer</item>
+        <item>PhoneDeny</item>
+        <item>RequestData</item>
+        <item>DataSync</item>
+        <item>SportTarget</item>
+        <item>DailySportData</item>
+        <item>AlarmRead</item>
+        <item>PhoneCommingStress</item>
+        <item>AlarmStress</item>
+        <item>RequestSleepData</item>
+        <item>RemoteControl</item>
+        <item>Battery</item>
+    </string-array>
+    
+    <string name="code_pass">No Error</string>
+    <string name="code_bt_disc">Bluetooth Discovery</string>
+    <string name="code_bt_conn">Bluetooth Connection</string>
+    <string name="code_bt_bond">Bluetooth Bond</string>
+    <string name="code_bt_prot">Bluetooth Protocol</string>
+    <string name="code_sn_rd">Serial Number Read</string>
+    <string name="code_sn_wr">Serial Number Write</string>
+    <string name="code_rom">Rom Revision</string>
+    <string name="code_sensor">GSensor</string>
+    <string name="code_charge">Voltage</string>
+    <string name="code_led">LED</string>
+    <string name="code_vibrate">Vibrate</string>
+    <string name="code_flag">Write Flag</string>
+    
+    <string name="test_fail">Test Fail</string>
+    <string name="test_pass">Test PASS</string>
+    <string name="result_pass">PASS</string>
+    <string name="result_fail">FAIL</string>
+    <string name="ble_not_supported">BLE not supported</string>
+    <string name="test_prepare">Starting Test Service\u2026</string>
+    <string name="bt_resetting">Resetting Bluetooth Adapter\u2026</string>
+    <string name="bt_prepare">Put Device and Phone into Box within 5s</string>
+    <string name="bt_searching">Searching\u2026</string>
+    <string name="bt_device">Device</string>
+    <string name="bt_connecting">Connecting %1$s\u2026</string>
+    <string name="bt_connected">Connected!</string>
+    <string name="bt_requesting">Sending request\u2026</string>
+    <string name="bt_receiving">Waiting for response\u2026</string>
+    <string name="bt_received">Received Data</string>
+    <string name="bt_received_fail">Receive Data Fail</string>
+    <string name="bt_request_fail">Request Data Failed</string>
+    <string name="bt_nodevice">No Device Detected</string>
+    <string name="bt_fail">BT Test Fail</string>
+    <string name="bt_disconnected">Can not Connect to Device\n%1$s</string>
+    <string name="bt_connection_fail">Connection to Device Failed</string>
+    <string name="bt_binding">binding...</string>
+    <string name="bt_bind_success">bind to Device successful</string>
+    <string name="bt_bind_fail">bind to Device Failed</string>
+    
+    
+    <string name="sn">SN: XXXX\nWirte Success</string>
+    <string name="sn_writing">Writing SN to Device\u2026</string>
+    <string name="sn_read_fail">Read SN fail, try again</string>
+    <string name="sn_write_ok">Write Success!</string>
+    <string name="sn_write_fail">Write Failed!</string>
+    <string name="sn_write">Scan Device SN</string>
+    <string name="sn_checking">Checking write result\u2026</string>
+    <string name="sn_checking_fail">Checking SN write failed</string>
+    <string name="sn_invalid">Invalid S/N</string>
+    
+    <string name="rom_get_failed">Get Rom Version Failed</string>
+    <string name="rom_retriving">Retriving Rom Version\u2026</string>
+    <string name="rssi_retriving">Retriving RSSI\u2026</string>
+    <string name="battery_retriving">Retriving Rom Battery\u2026</string>
+    
+    <string name="sensor_state">Click Device 3 times</string>
+    <string name="sensor_detect">Detect 3 Click</string>
+    <string name="sensor_requesting">Requesting Sensor data\u2026</string>
+    <string name="sensor_request_fail">Request Sensor data failed!</string>
+    <string name="sensor_request_ok">Received Sensor data</string>
+    <string name="sensor_details">X: %1$.2f G\nY: %2$.2f G\nZ: %3$.2f G</string>
+    <string name="sensor_value_info">Max value must beween 0.78~1.18 while static</string>
+    
+    
+    <string name="charge_info">Battery Voltage is XX\nCharger Current is YY</string>
+    <string name="charge_detail">Charger Voltage: %1$.2f V</string>
+    <string name="charge_request_fail">Request Charge Data Fail</string>
+    <string name="charge_requesting">Requesting Charge Data\u2026</string>
+    <string name="charge_start">Start</string>
+    <string name="charge_click_info">Insert Charger then click Start</string>
+    
+    <string name="is_led_on">Is Led Flash?</string>
+    <string name="restart">Restart</string>
+    <string name="is_vibrate_on">Is Vibrate On</string>
+    
+    <string name="flag_writing">Writing Flag\u2026</string>
+    <string name="flag_write_failed">Write Failed</string>
+    <string name="flag_write_ok">Write Success</string>
+    <string name="flag_reading">Reading</string>
+    <string name="flag_read_fail">Read failed</string>
+    <string name="flag_checking">Checking write result\u2026</string>
+    <string name="flag_checking_failed">Checking write flag FAILED</string>
+    
+    <string name="trace_retrieving">Retrieving information\u2026</string>
+    <string name="trace_retrieving_failed">Retrieving FAILED</string>
+    <string name="trace_retrieving_success">Retrieving SUCCESS</string>
+    
+    <string name="mor_set">Mormancy</string>
+    <string name="mor_failed">Failed</string>
+    <string name="mor_success">Success</string>
+    <string name="mor_sending">Sending mormancy command\u2026</string>
+    <string name="mor_hint">Click button to enter Mormancy mode</string>
+    
+    <string name="ota_enter">OTA</string>
+    <string name="ota_success">Entered OTA mode</string>
+    <string name="ota_fail">Failed</string>
+    <string name="ota_hint">Click button to enter OTA mode</string>
+    <string name="ota_select_file">Select bin file</string>
+    <string name="ota_sending">Sending OTA command\u2026</string>
+    
+    <string name="result_title">TEST RESULT</string>
+    <string name="result_detail">PASSED</string>
+    <string name="restart_question">Restart?</string>
+    <string name="yes">重新检测</string>
+    <string name="no">完成</string>
+    
+    <string name="key_dev_name">dev_name</string>
+    <string name="pref_dev_name_title">Target Device Name</string>
+    <string name="pref_dev_name_sum">Set name of the target device.</string>
+    <string name="settings">Settings</string>
+    
+    <string name="key_rssi">key_rssi</string>
+    <string name="pref_min_rssi_title">Min Rssi</string>
+    <string name="pref_min_rssi_sum">Set min rssi value to be detected.</string>
+    
+    <string name="key_resetbt">key_resetbt</string>
+    <string name="pref_resetbt_title">Reset Bluetooth</string>
+    <string name="pref_resetbt_sum">Reset(disable/enable) bluetooth before testing.</string>
+    
+    <string name="key_rbt_time">key_rbt_time</string>
+    <string name="pref_rbt_time_title">Reset Bluetooth period</string>
+    <string name="pref_rbt_time_sum">Set the Bluetooth reset period in Senconds</string>
+    <string name="pref_rbt_time_default">5</string>
+    
+    <string name="key_ota">key_ota</string>
+    <string name="pref_ota_title">Set Default OTA file</string>
+    
+    <string name="report_printing">Printing report, please wait</string>
+    <string name="report_print_fail">SD card not found! Test report will not be printed</string>
+    
+    <string name="plz_click_the_button">Please click the button on the WristBand</string>
+    <string name="plz_long_click_the_button_for_3_secs">Please press the button 3 seconeds</string>
+    <string name="button_test_passed">Pass!</string>
+   
+    <string name="button_short_click_event_received">Button %1$s short click OK!</string>
+    <string name="button_long_click_event_received">Button %1$s long click OK!</string>
+    
+    <string name="bt_settime">Set Time</string>
+    <string name="bt_setalarm">Set alarm test</string>
+    <string name="bt_setlost">Lost test</string>
+    <string name="bt_setprofile">Set user profile</string>
+    <string name="bt_sporttarget">Set sport target</string>
+    <string name="bt_dailysportdata">Set daily sport data</string>
+    <string name="bt_sethand">Set left or right hand</string>
+    <string name="bt_phonecoming">Phone is coming</string>
+    <string name="bt_phoneanswer">Phone is answered</string>
+    <string name="bt_phonedeny">Phone is denyed</string>
+    <string name="bt_setstillalarm">Set stillalarm test</string>
+    <string name="bt_requestdata">Request data test</string>
+    <string name="bt_readalarm">Reading alarm</string>
+    <string name="bt_requestsleep">Request slepp data test</string>
+    <string name="bt_controlcamera">Request slepp data test</string>
+
+</resources>

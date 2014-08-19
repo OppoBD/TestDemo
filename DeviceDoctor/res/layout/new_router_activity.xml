@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#C9CCCE">
+    
+
+    <LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+	    <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/router_result"
+	        android:background="#098000"
+	        android:layout_width="fill_parent"
+	        android:gravity="center"
+	        android:layout_height="50dip"      
+	        android:textColor="#FFFFFF"
+	        android:textSize="25sp"/>
+	    
+	      <TextView
+	        android:id="@+id/text_router_score"
+	        android:text="@string/router_score"
+	        android:background="#006FAE"
+	        android:layout_marginTop="1dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dip"      
+	        android:textColor="#FFFFFF"
+	        android:gravity="center"
+	        android:textSize="65sp"/>
+	             
+    	<TextView
+	    	android:id="@+id/text_router_cur_speed"
+	    	android:text="@string/router_cur_speed"
+	        android:layout_marginTop="1dip"
+ 			android:background="#035C8E"
+	        android:layout_width="fill_parent"
+	        android:gravity="center"
+	        android:layout_height="40dip"      
+	        android:textColor="#FFFFFF"
+	        android:textSize="15sp"/>
+
+
+	    
+    </LinearLayout>
+    
+    	
+    <LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dip"
+	    android:gravity="center_vertical|left"
+	    android:background="#FFFFFF">
+        <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/text_check_pwd"     
+	        android:layout_marginLeft="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>
+         <TextView
+	        android:id="@+id/check_pwd"
+	        android:text="@string/text_check_fail"
+	       
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_weight="5"  
+	        android:textColor="#FF0000"
+	        android:textSize="15sp"/>
+	    
+    </LinearLayout>
+	
+    <LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dip"
+	    android:gravity="center_vertical|left"
+	    android:background="#FFFFFF">
+        <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/text_check_wan"     
+	        android:layout_marginLeft="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>
+         <TextView
+	        android:id="@+id/check_wan"
+	        android:text="@string/text_check_fail"
+	       
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_weight="5"  
+	        android:textColor="#FF0000"
+	        android:textSize="15sp"/>
+	    
+    </LinearLayout>
+    
+                <LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dip"
+	    android:layout_marginTop="1dip"
+	    android:gravity="center_vertical|left"
+	    android:background="#FFFFFF"
+        >
+               <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/text_check_diskUsedRate"       
+	        android:layout_marginLeft="10dip"
+	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>
+         <TextView
+	        android:id="@+id/check_diskUsedRate"
+	        android:text="@string/text_check_fail"
+	       
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_weight="5"  
+	        android:textColor="#FF0000"
+	        android:textSize="15sp"/>
+	    
+    </LinearLayout>
+    
+                
+      <LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dip"
+	    android:layout_marginTop="1dip"
+	    android:gravity="center_vertical|left"
+	    android:background="#FFFFFF"
+        >
+               <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/text_check_network"       
+	        android:layout_marginLeft="10dip"
+	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>
+         <TextView
+	        android:id="@+id/check_network"
+	        android:text="@string/text_check_fail"
+	       
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_weight="5"  
+	        android:textColor="#FF0000"
+	        android:textSize="15sp"/>
+           </LinearLayout>
+        
+		<LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dip"
+	    android:layout_marginTop="1dip"
+	    android:gravity="center_vertical|left"
+	    android:background="#FFFFFF"
+        >
+         
+         <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/text_check_version"       
+	        android:layout_marginLeft="10dip"
+	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>
+         <TextView
+	        android:id="@+id/check_version"
+	        android:text="@string/text_check_fail"
+	       
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_weight="5"  
+	        android:textColor="#FF0000"
+	        android:textSize="15sp"/>
+	    
+    </LinearLayout>
+    
+				<LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dip"
+	    android:layout_marginTop="1dip"
+	    android:gravity="center_vertical|left"
+	    android:background="#FFFFFF"
+        >
+         
+         <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/text_check_devicenum"       
+	        android:layout_marginLeft="10dip"
+	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>
+         <TextView
+	        android:id="@+id/check_devicenum"
+	        android:text="@string/text_check_fail"
+	       
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_weight="5"  
+	        android:textColor="#FF0000"
+	        android:textSize="15sp"/>
+	    
+    </LinearLayout>
+    
+    				<LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+	    android:layout_height="40dip"
+	    android:layout_marginTop="1dip"
+	    android:gravity="center_vertical|left"
+	    android:background="#FFFFFF"
+        >
+         
+         <TextView
+	        android:id="@+id/text_router_result"
+	        android:text="@string/text_check_arpAttack"       
+	        android:layout_marginLeft="10dip"
+	        
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+	        android:layout_weight="1"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>
+         <TextView
+	        android:id="@+id/check_arpAttack"
+	        android:text="@string/text_check_fail"
+	       
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"  
+	        android:layout_weight="5"  
+	        android:textColor="#FF0000"
+	        android:textSize="15sp"/>
+	    
+    </LinearLayout>
+ 
+ 
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_marginTop="1dip"
+        android:background="#07649A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+	    <Button
+	        android:id="@+id/btn_router_finish"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/button_style"
+	        android:text="@string/text_btn_finish"
+	        android:textSize="15sp" />
+
+	    <Button
+	        android:id="@+id/btn_router_book"
+	        android:layout_marginLeft="1dip"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/button_style"
+	        android:text="@string/text_btn_viewbook" 
+	        android:textSize="15sp"/>
+  
+	  </LinearLayout>
+
+</LinearLayout>

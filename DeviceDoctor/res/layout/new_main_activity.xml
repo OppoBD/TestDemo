@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" 
+    >
+        
+ <LinearLayout
+   
+    android:layout_height="fill_parent"  
+    android:layout_width="fill_parent"
+    android:layout_gravity="left"  
+    android:layout_weight="1"  
+    android:orientation="vertical" >
+
+     <ImageButton
+         android:id="@+id/btn_check_network"
+         android:layout_gravity="top"
+         android:layout_width="fill_parent"
+         android:layout_weight="1"
+         android:layout_height="wrap_content"
+         android:background="@drawable/btn_network"
+         android:contentDescription="@string/text_btn_check" />
+
+     <ImageButton
+         android:id="@+id/btn_check_router"
+		 android:layout_width="fill_parent"
+         android:layout_weight="1"
+         android:layout_height="wrap_content"
+         android:background="@drawable/btn_router" />
+
+ </LinearLayout>
+	    
+  <LinearLayout
+      android:layout_height="fill_parent"
+      android:layout_width="fill_parent"
+      android:layout_gravity="right"
+      android:layout_weight="1"  
+      android:orientation="vertical" >
+     
+      	    
+	    <ImageButton
+	        android:id="@+id/btn_check_iermu"
+	        android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+            android:layout_weight="1"
+	        android:background="@drawable/btn_iermu" />
+	   
+	    <ImageButton
+	        android:id="@+id/btn_check_shouhuan"
+	        android:layout_height="wrap_content"
+	  		android:layout_width="fill_parent"
+            android:layout_weight="1"
+	        android:background="@drawable/btn_shouhuan"
+	        android:contentDescription="@string/text_btn_check" />
+
+	
+
+	    <ImageButton
+	        android:id="@+id/btn_check_book"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+            android:layout_weight="1"
+	        android:background="@drawable/btn_book" />
+
+	        
+	    </LinearLayout>
+    
+  
+</LinearLayout>

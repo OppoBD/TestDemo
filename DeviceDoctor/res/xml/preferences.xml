@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <Preference android:key="@string/key_ota"
+        android:title="@string/pref_ota_title"/>
+    <EditTextPreference android:key="@string/key_rssi"
+        android:title="@string/pref_min_rssi_title"
+        android:summary="@string/pref_min_rssi_sum"
+        android:defaultValue="0"/>
+    <EditTextPreference android:key="@string/key_dev_name"
+        android:title="@string/pref_dev_name_title"
+        android:summary="@string/pref_dev_name_sum"/>
+
+    <CheckBoxPreference android:key="@string/key_resetbt"
+        android:title="@string/pref_resetbt_title"
+        android:summary="@string/pref_resetbt_sum"
+        android:defaultValue="true"/>
+    
+    <EditTextPreference android:key="@string/key_rbt_time"
+        android:title="@string/pref_rbt_time_title"
+        android:summary="@string/pref_rbt_time_sum"
+        android:defaultValue="@string/pref_rbt_time_default"/>
+</PreferenceScreen>

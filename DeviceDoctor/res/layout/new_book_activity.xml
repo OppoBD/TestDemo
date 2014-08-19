@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <LinearLayout 
+        android:id="@+id/logtip_fra"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+	    <TextView
+	        android:id="@+id/text_network_result"
+	        android:text="@string/book_result"
+	        android:background="#098000"
+	        android:layout_width="fill_parent"
+	        android:gravity="center"
+	        android:layout_height="50dip"      
+	        android:textColor="#FFFFFF"
+	        android:textSize="25sp"/>
+	    
+      </LinearLayout>
+      
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_marginTop="1dip"
+        android:background="#305568"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+	    <Button
+	        android:id="@+id/btn_connect_failed"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/book_button_style"
+	        android:text="@string/text_connect_fail"
+	        android:textColor="#BEBEBE"
+	        android:textSize="15sp" />
+
+	    <Button
+	        android:id="@+id/btn_connect_slow"
+	        android:layout_marginLeft="1dip"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/book_button_style"
+	        android:text="@string/text_connect_slow" 
+	        android:textColor="#BEBEBE"
+	        android:textSize="15sp"/>
+	    
+	    <Button
+	        android:id="@+id/btn_connect_other"
+	        android:layout_marginLeft="1dip"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:background="@drawable/book_button_style"
+	        android:text="@string/text_connect_other"
+	        android:textColor="#BEBEBE" 
+	        android:textSize="15sp"/>
+  
+	  </LinearLayout>
+    
+        <LinearLayout 
+	        android:id="@+id/logtip_fra"
+	        android:orientation="horizontal"
+	        android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:gravity="center_vertical|left">
+	    
+       <ScrollView 
+		android:id="@+id/scrollView" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" 
+		android:scrollbarStyle="outsideOverlay"
+		android:background="#EAEAEA"> 
+        <TextView
+	        android:id="@+id/text_book_show"
+	        android:text="@string/text_book_res"   
+	        android:layout_marginTop="10dip"  
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"     
+	        android:textColor="#504F4F"
+	        android:textSize="15sp"/>   
+	    </ScrollView>
+      </LinearLayout>
+
+</LinearLayout>

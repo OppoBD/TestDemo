@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.baidu.wifi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="17"/>
+    <!-- doctor service 运行需要的权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER"/>
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    
+    <!-- Alarm Manager相关权限 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+     <!-- 手环相关的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+     
+    <application android:name="com.baidu.wifi.demo.DemoApplication"
+        android:icon="@drawable/ic_launcher"
+        
+        android:label="@string/app_name">
+        <activity
+            android:name="com.baidu.wifi.demo.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+             android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         
+        <activity
+            android:name="com.baidu.wifi.demo.BookActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >    
+        </activity>        
+        
+        <!-- 解决方案相关的Activity -->
+        <activity
+            android:name="com.baidu.wifi.demo.SolveActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >    
+        </activity>
+        
+        <activity
+            android:name="com.baidu.wifi.demo.RouterActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >    
+        </activity>
+        
+        <activity
+            android:name="com.baidu.wifi.demo.WifiActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>
+
+       <!-- 手环相关的Activity -->
+        <activity android:name="com.baidu.wearable.test.wristbandtester.BluetoothConnectionTestActivity"></activity>
+        <activity
+            android:name="com.baidu.wearable.test.wristbandtester.AutoTestActivity"
+            android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden" >
+        </activity>        
+        <activity android:name="com.baidu.wearable.test.wristbandtester.ManualTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.StressTestActivity"></activity>
+        <service android:name="com.baidu.wearable.test.wristbandtester.BluetoothService"></service>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.Settings"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.LedTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.VibratorTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.SnTestActivity"></activity>        
+        <activity android:name="com.baidu.wearable.test.wristbandtester.BindTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.TimeTestActivity"></activity>        
+        <activity android:name="com.baidu.wearable.test.wristbandtester.AlarmSetTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.LostTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.UserProfileTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.SportTargetTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.DailySportDataTestActivity"></activity>        
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.RequestDataTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.LRHandTestActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.PhoneCommingTestActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.PhoneAnswerTestActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.PhoneDenyTestActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.StillAlarmTestActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.AlarmReadTestActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.RequestSleepDataActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.ControlTestActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.BatteryTestActivity"></activity>       	
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.PhoneCommingStressActivity"></activity>
+       	<activity android:name="com.baidu.wearable.test.wristbandtester.AlarmStressActivity"></activity>       
+        <activity android:name="com.baidu.wearable.test.wristbandtester.RomVersionTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.RssiTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.ChargeTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.WriteFlagTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.SensorTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.TraceabilityTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.MormancyTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.OtaTestActivity"></activity>
+        <activity android:name="com.baidu.wearable.test.wristbandtester.DfuActivity"></activity>
+        
+        
+        <!-- doctor应用定义消息receiver声明 -->
+        <receiver android:name="com.baidu.wifi.demo.MyPushMessageReceiver">
+            <intent-filter>
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind,unbind,fetch,delete等反馈消息 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver>
+        
+        <!-- push必须的receviver和service声明 -->
+        <receiver android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1">
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <data android:scheme="package" />
+            </intent-filter>                   
+        </receiver>
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1"  >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service>
+        <!-- push结束 -->
+        
+        <receiver android:name="com.baidu.doctor.scheduler.AlarmReceiver"></receiver>
+        <service android:name="com.baidu.doctor.scheduler.SchedulingService" />
+        
+		<!-- 在百度开发者中心查询应用的API Key -->
+        <meta-data android:name="api_key" android:value="XVLULbFyGYDXifoSvrISCeIg" />
+    </application>
+
+</manifest>
